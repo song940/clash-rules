@@ -17,7 +17,7 @@ jobs:
 
       - name: Move files to publish directory
         run: |
-          git clone https://github.com/blackmatrix7/ios_rule_script.git /tmp
+          git clone https://github.com/blackmatrix7/ios_rule_script.git /tmp/ios_rule_script
           mv /tmp/ios_rule_script/rule/Clash publish
 
       - name: Release and upload assets
